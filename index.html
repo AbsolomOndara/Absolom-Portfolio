@@ -1,0 +1,1044 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Absolom Ondara | Senior Software Developer</title>
+  <meta name="description" content="Portfolio of Absolom Ondara, Senior Software Developer at Worldways Web-Developers, building thoughtful web platforms and digital products in Kenya.">
+  <meta name="theme-color" content="#17211d">
+  <meta content="" name="I am a skilled website developer skilled in developing both front-end and back-end development">
+  <meta content="" name="best web developers in kenya">
+  <meta content="" name="writers admin">
+  <meta content="" name="software engineering">
+  <meta content="" name="kenya">
+  <meta content="" name="best mobile application developers">
+  <meta content="" name="web designers">
+  <meta content="" name="kenyatta hospital">
+  <meta content="" name="creative consillium">
+  <meta content="" name="nairobi">
+  <meta content="" name="top web developers in kenya">
+  <meta content="" name="livescore">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/hero-bg.jpg" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <style>
+    :root {
+      --ink: #17211d; --muted: #66716b; --paper: #f7f7f3; --surface: #fff;
+      --line: #e4e7e1; --accent: #bd6f45; --accent-dark: #8f4c2d;
+      --green: #263d33; --radius: 18px; --shadow: 0 16px 44px rgba(23,33,29,.08);
+    }
+    html { scroll-behavior: smooth; scroll-padding-top: 28px; }
+    body.index-page { background: var(--paper); color: var(--ink); font-family: "Roboto", sans-serif; line-height: 1.65; }
+    a { color: inherit; }
+    a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible { outline: 3px solid #d88a5e; outline-offset: 3px; }
+    .header { background: #17211d !important; }
+    .sitename { letter-spacing: -.04em; }
+    .navmenu a { border-radius: 8px; transition: background .2s ease, color .2s ease; }
+    .navmenu a:hover, .navmenu a.active { background: rgba(255,255,255,.08); color: #e8a477 !important; }
+    .hero-section { min-height: min(790px, 94vh); display: grid; align-items: center; background: #1c2822; }
+    .hero-bg-image { object-position: center 48%; filter: brightness(.58) saturate(.72); }
+    .hero-overlay { background: linear-gradient(90deg, rgba(16,24,20,.82), rgba(16,24,20,.38) 72%, rgba(16,24,20,.14)); }
+    .hero-content { width: min(100% - 48px, 1080px); margin: 0 auto; padding: 88px 0; }
+    .hero-name { max-width: 780px; font-family: "Raleway", sans-serif; font-size: clamp(3rem, 8vw, 6.6rem); line-height: .98; letter-spacing: -.065em; }
+    .hero-title { font-size: clamp(1.2rem, 2.6vw, 1.8rem); font-weight: 500; }
+    .hero-typed { color: #e9a477; }
+    .hero-description { max-width: 620px; color: rgba(255,255,255,.82); font-size: 1.08rem; }
+    .hero-btn { border-radius: 999px; padding: 13px 21px; transition: transform .2s ease, background .2s ease; }
+    .hero-btn:hover { transform: translateY(-2px); }
+    .hero-btn-primary { background: var(--accent); border-color: var(--accent); }
+    .hero-btn-outline { border-color: rgba(255,255,255,.7); }
+    .main > section:not(.hero-section), .main > .contact-section { padding: clamp(64px, 8vw, 104px) 24px; }
+    .abs-section, .edu-section, .testimonials-section, .contact-section { background: var(--paper) !important; }
+    .abs-container, .exp-container, .proj-container, .edu-container, .rs-container { max-width: 1120px; }
+    .abs-title, .exp-title, .proj-title, .edu-title, .rs-title, .section-header h2 { color: var(--ink); font-family: "Raleway", sans-serif; font-size: clamp(2rem, 4vw, 3rem); letter-spacing: -.045em; margin-bottom: 18px; }
+    .abs-title:after, .exp-title:after, .proj-title:after, .edu-title:after, .rs-title:after { width: 48px; height: 3px; background: var(--accent); border-radius: 4px; }
+    .abs-content { gap: clamp(28px, 5vw, 72px); align-items: center; }
+    .abs-profile-img { border-radius: 14px !important; box-shadow: var(--shadow); }
+    .abs-lead { color: #46534c; font-size: 1.08rem; line-height: 1.8; }
+    .abs-detail-item { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 14px; }
+    .abs-detail-icon, .abs-detail-icon i { color: var(--accent); }
+    .focus-section { background: #eef0ea; padding: 28px 24px 54px; }
+    .focus-grid { max-width: 1120px; margin: 0 auto; display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+    .focus-card { padding: 20px 22px; background: rgba(255,255,255,.8); border: 1px solid var(--line); border-radius: 14px; }
+    .focus-card h3 { font-size: 1rem; margin: 0 0 5px; color: var(--green); }
+    .focus-card p { margin: 0; color: var(--muted); font-size: .94rem; }
+    .exp-section { background: var(--paper); }
+    .exp-timeline { gap: 20px; }
+    .exp-item { background: var(--surface); border: 1px solid var(--line); border-left: 3px solid var(--accent); border-radius: 4px 14px 14px 4px; box-shadow: 0 8px 26px rgba(23,33,29,.04); padding: 25px 28px; }
+    .exp-role { color: var(--ink); font-size: 1.28rem; }
+    .exp-company { color: var(--accent-dark); font-weight: 600; }
+    .exp-description { color: #536159; }
+    .exp-skill, .proj-tech-item { background: #f2f3ef; border: 1px solid #e7e9e4; color: #48574e; border-radius: 999px; padding: 5px 10px; font-size: .78rem; }
+    .proj-section { background: #eef0ea !important; overflow: hidden; }
+    .proj-bg-element { display: none; }
+    .proj-grid { gap: 20px; }
+    .proj-card { overflow: hidden; background: var(--surface); border: 1px solid var(--line); border-radius: 16px; box-shadow: 0 8px 26px rgba(23,33,29,.05); transition: transform .24s ease, box-shadow .24s ease; }
+    .proj-card:hover { transform: translateY(-5px); box-shadow: var(--shadow); }
+    .proj-image { min-height: 205px; background-size: cover; background-position: center; }
+    .proj-content { padding: 22px 23px 24px; }
+    .proj-client { color: var(--accent-dark); font-size: .78rem; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; }
+    .proj-name { color: var(--ink); font-size: 1.25rem; margin: 7px 0 9px; }
+    .proj-description { color: var(--muted); min-height: 76px; }
+    .proj-tech { display: flex; flex-wrap: wrap; gap: 6px; margin: 15px 0 19px; }
+    .proj-link { color: var(--accent-dark); font-weight: 700; }
+    .proj-link:hover { color: var(--ink); }
+    .outline-btn { border-color: var(--green); color: var(--green); border-radius: 999px; padding: 11px 20px; }
+    .edu-card, .rs-card, .testimonial-card { background: var(--surface); border: 1px solid var(--line); border-radius: 15px; box-shadow: 0 8px 26px rgba(23,33,29,.04); }
+    .resume-section { background: #eef0ea; }
+    .rs-download-btn, .rs-whatsapp-btn { border-radius: 999px; }
+    .testimonials-section { padding-top: 74px !important; }
+    .section-header { text-align: left; max-width: 1120px; margin: 0 auto 28px; }
+    .section-header p { color: var(--muted); }
+    .testimonials-grid { max-width: 1120px; margin: 0 auto; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+    .testimonial-card { padding: 25px; }
+    .testimonial-content { color: #46534c; }
+    .testimonial-text { font-size: .98rem; line-height: 1.75; }
+    .quote-icon { color: #c17a54; opacity: .65; }
+    .testimonial-author { border-top: 1px solid var(--line); padding-top: 15px; margin-top: 17px; }
+    .testimonial-author h4 { color: var(--ink); font-size: 1rem; margin: 0; }
+    .testimonial-author p { color: var(--muted); margin: 3px 0 0; font-size: .88rem; }
+    .reference-note { color: #7a6558; font-size: .74rem; letter-spacing: .04em; text-transform: uppercase; }
+    .contact-section { background: #17211d !important; color: #fff; }
+    .contact-section .section-title h2, .contact-section h3 { color: #fff; }
+    .contact-section .section-title p, .contact-section .info-content p { color: rgba(255,255,255,.7); }
+    .contact-form-container { background: #fff; border-radius: 16px; padding: clamp(22px, 4vw, 38px); }
+    .footer { background: #101713 !important; color: rgba(255,255,255,.7); }
+    .footer .sitename { color: #fff; }
+    .whatsapp-float { box-shadow: 0 8px 22px rgba(0,0,0,.2); }
+    @media (max-width: 850px) { .focus-grid, .testimonials-grid { grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 600px) {
+      .hero-content { width: calc(100% - 36px); padding: 80px 0 72px; }
+      .hero-section { min-height: 88vh; }
+      .hero-overlay { background: rgba(16,24,20,.62); }
+      .hero-description { font-size: 1rem; }
+      .main > section:not(.hero-section), .main > .contact-section { padding-left: 18px; padding-right: 18px; }
+      .focus-grid, .testimonials-grid { grid-template-columns: 1fr; }
+      .exp-item { padding: 21px; }
+      .proj-description { min-height: 0; }
+    }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; } }
+  </style>
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header dark-background d-flex flex-column">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <div class="profile-img">
+      <img src="assets/img/my-profile-img.jpg" alt="Portrait of Absolom Ondara" class="img-fluid rounded-circle">
+    </div>
+
+    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+      <h1 class="sitename">Absolom Ondara</h1>
+    </a>
+
+    <div class="social-links text-center">
+      <a href="https://x.com/WorldWays1Dvlps?t=bzKdVYKmt4gK6o2Ag8F3yQ&s=09" class="twitter"><i class="bi bi-twitter-x"></i></a>
+      <a href="https://www.facebook.com/share/15vWu4SqRL/" class="facebook"><i class="bi bi-facebook"></i></a>
+      <a href="https://github.com/AbsolomOndara" class="google-plus"><i class="bi bi-github"></i></a>
+      <a href="https://www.linkedin.com/in/absolom-ondara-602789326?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="linkedin"><i class="bi bi-linkedin"></i></a>
+    </div>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#abs-about"><i class="bi bi-person navicon"></i> About</a></li>
+        <li><a href="#exp-section"><i class="bi bi-briefcase navicon"></i>Experience</a></li>
+        <li><a href="#proj-section"><i class="bi bi-folder navicon"></i>Projects</a></li>
+        <li><a href="#edu-section"><i class="bi bi-mortarboard navicon"></i>Education</a></li>
+        <li><a href="#skills"><i class="bi bi-tools navicon"></i>Skills</a></li>
+        <li><a href="#unique-interests"><i class="bi bi-heart navicon"></i>Interests</a></li>
+        <li><a href="#resume-section"><i class="bi bi-trophy naviconn"></i> Awards</a></li>
+        <li><a href="#unique-testimonials"><i class="bi bi-chat-quote navicon"></i>Testimonials</a></li>
+        <li><a href="catalogue.html"><i class="bi bi-journal-bookmark-fill navicon"></i>Get My Catalogue</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+    <section id="hero-section" class="hero-section">
+      <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Workspace with a computer" class="hero-bg-image">
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content">
+        <h1 class="hero-name">Absolom Ondara</h1>
+
+        <div class="hero-title-container">
+          <h2 class="hero-title">I build
+            <span id="hero-typed" class="hero-typed" data-hero-items="digital products, web platforms, useful software"></span>
+            <span class="hero-typed-cursor" aria-hidden="true">|</span>
+          </h2>
+        </div>
+
+        <p class="hero-description">
+          I build reliable web products that make complex work easier. My focus is clear interfaces, maintainable software, and practical solutions for real teams.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#proj-section" class="hero-btn hero-btn-primary">
+            <i class="fas fa-briefcase"></i> View Work
+          </a>
+          <a href="https://wa.me/254112293409?text=Hello%2C%20I%20would%20like%20to%20discuss%20a%20project" class="hero-btn hero-btn-outline" aria-label="Contact Absolom on WhatsApp">
+            <i class="fas fa-paper-plane"></i> Contact Me
+          </a>
+        </div>
+
+        <div class="hero-socials">
+          <a href="https://github.com/AbsolomOndara" class="hero-social-link" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/absolom-ondara-602789326?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="hero-social-link" aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://x.com/OndaraAbsolom" class="hero-social-link" aria-label="X">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z" fill="white"/>
+            </svg>
+          </a>
+          <a href="https://www.facebook.com/absolom.jayson?rdid=jF7OfbkLmV1DkYFC&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F15vWu4SqRL%2F#" class="hero-social-link" aria-label="Facebook">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="scroll-indicator">
+        <div class="scroll-down"></div>
+      </div>
+    </section>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const typedElement = document.getElementById('hero-typed');
+        const items = typedElement.getAttribute('data-hero-items').split(', ');
+        let currentItem = 0;
+        let currentChar = 0;
+        let isDeleting = false;
+
+        function type() {
+          const fullText = items[currentItem];
+          const speed = isDeleting ? 50 : 100;
+
+          if (isDeleting) {
+            typedElement.textContent = fullText.substring(0, currentChar - 1);
+            currentChar--;
+          } else {
+            typedElement.textContent = fullText.substring(0, currentChar + 1);
+            currentChar++;
+          }
+
+          let delay = speed;
+          if (!isDeleting && currentChar === fullText.length) {
+            isDeleting = true;
+            delay = 1000;
+          } else if (isDeleting && currentChar === 0) {
+            isDeleting = false;
+            currentItem = (currentItem + 1) % items.length;
+            delay = 500;
+          }
+          setTimeout(type, delay);
+        }
+
+        setTimeout(type, 1000);
+      });
+    </script>
+
+    <section id="abs-about" class="abs-section">
+      <div class="abs-container">
+        <h2 class="abs-title">About Me</h2>
+
+        <div class="abs-content">
+          <div class="abs-profile">
+            <img src="assets/img/my-profile-img.jpg" class="abs-profile-img" alt="Professional profile picture">
+          </div>
+
+          <div class="abs-bio">
+            <p class="abs-lead">
+              I am a software developer who enjoys turning practical needs into dependable digital products. I work across the stack, from shaping the user experience to building the systems behind it.
+            </p>
+
+            <div class="abs-details">
+              <div class="abs-detail-item">
+                <div class="abs-detail-icon"><i class="fas fa-user-graduate"></i></div>
+                <div class="abs-detail-content">
+                  <strong>Degree</strong>
+                  <span>Computer Science</span>
+                </div>
+              </div>
+
+              <div class="abs-detail-item">
+                <div class="abs-detail-icon"><i class="fas fa-map-marker-alt"></i></div>
+                <div class="abs-detail-content">
+                  <strong>Location</strong>
+                  <span>Nairobi, KENYA</span>
+                </div>
+              </div>
+
+              <div class="abs-detail-item">
+                <div class="abs-detail-icon"><i class="fas fa-envelope"></i></div>
+                <div class="abs-detail-content">
+                  <strong>Email</strong>
+                  <span>absolomondara01@gmail.com</span>
+                </div>
+              </div>
+
+              <div class="abs-detail-item">
+                <div class="abs-detail-icon"><i class="fas fa-phone-alt"></i></div>
+                <div class="abs-detail-content">
+                  <strong>Phone</strong>
+                  <a href="tel:+254112293409">+254 112 293 409</a>
+                </div>
+              </div>
+
+              <div class="abs-detail-item">
+                <div class="abs-detail-icon"><i class="fas fa-briefcase"></i></div>
+                <div class="abs-detail-content">
+                  <strong>Availability</strong>
+                  <span>Freelance Open</span>
+                </div>
+              </div>
+
+              <div class="abs-detail-item">
+                <div class="abs-detail-icon"><i class="fas fa-globe"></i></div>
+                <div class="abs-detail-content">
+                  <strong>Website</strong>
+                  <span>www.absolomondara.co.ke</span>
+                </div>
+              </div>
+            </div>
+
+            <p class="abs-lead">
+              My work spans full-stack development, cloud services, and deployment workflows. I value thoughtful planning, readable code, and steady collaboration from first sketch through launch.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="focus-section" aria-label="Development approach">
+      <div class="focus-grid">
+        <article class="focus-card">
+          <h3>Full-stack delivery</h3>
+          <p>From responsive interfaces to APIs, data, and deployment.</p>
+        </article>
+        <article class="focus-card">
+          <h3>Built around the user</h3>
+          <p>Clear journeys and useful details, shaped around how people work.</p>
+        </article>
+        <article class="focus-card">
+          <h3>Reliable by design</h3>
+          <p>Maintainable foundations, careful iteration, and practical support.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="exp-section" class="exp-section">
+      <div class="exp-container">
+        <h2 class="exp-title">Professional Experience</h2>
+
+        <div class="exp-timeline">
+          <div class="exp-item">
+            <h3 class="exp-role">Senior Software Developer</h3>
+            <span class="exp-company">Worldways Web-Developers</span>
+            <div class="exp-duration">
+              <i class="bi bi-calendar"></i>
+              May 2024 – Present
+            </div>
+            <p class="exp-description">
+              Leading the design and delivery of web applications, collaborating with clients and teammates, and helping turn requirements into maintainable software.
+            </p>
+            <div class="exp-skills">
+              <span class="exp-skill">Team Leadership</span>
+              <span class="exp-skill">System Architecture</span>
+              <span class="exp-skill">CI/CD Pipelines</span>
+              <span class="exp-skill">Code Review</span>
+              <span class="exp-skill">Problem Solving</span>
+            </div>
+          </div>
+
+          <div class="exp-item">
+            <h3 class="exp-role">IT Technician</h3>
+            <span class="exp-company">Fast Link Internet Providers</span>
+            <div class="exp-duration">
+              <i class="bi bi-calendar"></i>
+              January 2024 – April 2024
+            </div>
+            <p class="exp-description">
+              Managed network infrastructure, hardware installations, and provided technical support ensuring reliable internet connectivity for clients.
+            </p>
+            <div class="exp-skills">
+              <span class="exp-skill">Network Troubleshooting</span>
+              <span class="exp-skill">Hardware Maintenance</span>
+              <span class="exp-skill">Customer Support</span>
+              <span class="exp-skill">Network Configuration</span>
+            </div>
+          </div>
+
+          <div class="exp-item">
+            <h3 class="exp-role">Web Developer</h3>
+            <span class="exp-company">Worldwaysone Venture Limited</span>
+            <div class="exp-duration">
+              <i class="bi bi-calendar"></i>
+              January 2023 – January 2024
+            </div>
+            <p class="exp-description">
+              Independently designed and developed company website, ensuring technical excellence and alignment with target audience needs.
+            </p>
+            <div class="exp-skills">
+              <span class="exp-skill">Full-stack Development</span>
+              <span class="exp-skill">Responsive Design</span>
+              <span class="exp-skill">SEO Optimization</span>
+              <span class="exp-skill">Client Communication</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="proj-section" class="proj-section">
+      <div class="proj-container">
+        <h2 class="proj-title">Featured Projects</h2>
+
+        <div class="proj-grid">
+          <article class="proj-card">
+            <div class="proj-image" style="background-image: url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80')"></div>
+            <div class="proj-content">
+              <span class="proj-client">Worldwaysone Venture Limited</span>
+              <h3 class="proj-name">Corporate Website Development</h3>
+              <p class="proj-description">Modern corporate website showcasing company services, values, and portfolio with intuitive user experience.</p>
+              <div class="proj-tech">
+                <span class="proj-tech-item">Web Design</span>
+                <span class="proj-tech-item">CMS Integration</span>
+                <span class="proj-tech-item">SEO Optimization</span>
+              </div>
+              <a href="https://worldwaysone.co.ke/" class="proj-link">View Project <i class="bi bi-arrow-up-right"></i></a>
+            </div>
+          </article>
+
+          <article class="proj-card">
+            <div class="proj-image" style="background-image: url('https://images.unsplash.com/photo-1581276879432-15e50529f34b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80')"></div>
+            <div class="proj-content">
+              <span class="proj-client">Worldways Web-Developers</span>
+              <h3 class="proj-name">Developer Portfolio Platform</h3>
+              <p class="proj-description">Professional portfolio website highlighting software solutions with interactive case studies and project showcases.</p>
+              <div class="proj-tech">
+                <span class="proj-tech-item">React.js</span>
+                <span class="proj-tech-item">API Integration</span>
+                <span class="proj-tech-item">Responsive Design</span>
+              </div>
+              <a href="https://www.worldwaysweb-developers.co.ke/" class="proj-link">View Project <i class="bi bi-arrow-up-right"></i></a>
+            </div>
+          </article>
+
+          <article class="proj-card">
+            <div class="proj-image" style="background-image: url('https://images.unsplash.com/photo-1503387762-592deb58ef4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80')">
+              <div class="proj-overlay"><span class="proj-category">Architecture &amp; Design</span></div>
+            </div>
+            <div class="proj-content">
+              <span class="proj-client">Archisphere Architects</span>
+              <h3 class="proj-name">Modern Architectural Portfolio</h3>
+              <p class="proj-description">Elegant portfolio website showcasing innovative architectural designs, project case studies, and firm expertise with immersive visual galleries.</p>
+              <div class="proj-tech">
+                <span class="proj-tech-item">Modern Design</span>
+                <span class="proj-tech-item">Project Galleries</span>
+                <span class="proj-tech-item">Responsive Layout</span>
+              </div>
+              <a href="https://archispace-architects.vercel.app/" class="proj-link">View Project <i class="bi bi-arrow-up-right"></i></a>
+            </div>
+          </article>
+
+          <article class="proj-card">
+            <div class="proj-image" style="background-image: url('https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80')">
+              <div class="proj-overlay"><span class="proj-category">Finance &amp; Productivity</span></div>
+            </div>
+            <div class="proj-content">
+              <span class="proj-client">Freelance Professionals</span>
+              <h3 class="proj-name">Financial Management System</h3>
+              <p class="proj-description">Comprehensive financial dashboard for freelancers featuring income tracking, expense management, invoice generation, and tax preparation tools.</p>
+              <div class="proj-tech">
+                <span class="proj-tech-item">Financial Dashboard</span>
+                <span class="proj-tech-item">Invoice System</span>
+                <span class="proj-tech-item">Data Analytics</span>
+              </div>
+              <a href="https://freelance-work-tracker.vercel.app/" class="proj-link">View Project <i class="bi bi-arrow-up-right"></i></a>
+            </div>
+          </article>
+
+          <article class="proj-card">
+            <div class="proj-image" style="background-image: url('https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80')"></div>
+            <div class="proj-content">
+              <span class="proj-client">Fastlink Internet Solutions</span>
+              <h3 class="proj-name">ISP Service Portal</h3>
+              <p class="proj-description">Comprehensive business website featuring service plans, customer support solutions, and account management portal.</p>
+              <div class="proj-tech">
+                <span class="proj-tech-item">User Portal</span>
+                <span class="proj-tech-item">Payment Gateway</span>
+                <span class="proj-tech-item">Cloud Hosting</span>
+              </div>
+              <a href="https://worldwaysonedevelopers254.github.io/Fast-Link-Internet/" class="proj-link">View Project <i class="bi bi-arrow-up-right"></i></a>
+            </div>
+          </article>
+
+          <article class="proj-card">
+            <div class="proj-image" style="background-image: url('https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80')"></div>
+            <div class="proj-content">
+              <span class="proj-client">Velnet Internet Service Providers</span>
+              <h3 class="proj-name">ISP Corporate Website</h3>
+              <p class="proj-description">Feature-rich internet service provider website with package comparisons, client portals, and support ticketing system.</p>
+              <div class="proj-tech">
+                <span class="proj-tech-item">Client Portal</span>
+                <span class="proj-tech-item">Live Chat</span>
+                <span class="proj-tech-item">Network Monitoring</span>
+              </div>
+              <a href="https://worldwaysonedevelopers254.github.io/UConnect-Internet-Service-Provider/" class="proj-link">View Project <i class="bi bi-arrow-up-right"></i></a>
+            </div>
+          </article>
+
+          <article class="proj-card">
+            <div class="proj-image" style="background-image: url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80')" role="img" aria-label="Digital learning and cybersecurity workspace"></div>
+            <div class="proj-content">
+              <span class="proj-client">Institute of Cybersecurity and Forensics</span>
+              <h3 class="proj-name">ICSF Learning Platform</h3>
+              <p class="proj-description">A digital home for cybersecurity and forensic education, connecting learners with programs, resources, and institute updates.</p>
+              <div class="proj-tech">
+                <span class="proj-tech-item">Education</span>
+                <span class="proj-tech-item">Cybersecurity</span>
+                <span class="proj-tech-item">Web platform</span>
+              </div>
+              <a href="https://icsf.ac.ke/" class="proj-link" target="_blank" rel="noopener noreferrer">Visit ICSF <i class="bi bi-arrow-up-right"></i></a>
+            </div>
+          </article>
+
+          <article class="proj-card">
+            <div class="proj-image" style="background-image: url('https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=900&q=80')" role="img" aria-label="Consulting documents on a desk"></div>
+            <div class="proj-content">
+              <span class="proj-client">Medrisk Consulting</span>
+              <h3 class="proj-name">Medrisk Consulting Website</h3>
+              <p class="proj-description">A professional web presence for a consulting practice, designed to make its services and contact path easy to understand.</p>
+              <div class="proj-tech">
+                <span class="proj-tech-item">Consulting</span>
+                <span class="proj-tech-item">Web design</span>
+                <span class="proj-tech-item">Responsive</span>
+              </div>
+              <a href="https://medriskconsulting.co.ke/" class="proj-link" target="_blank" rel="noopener noreferrer">Visit Medrisk <i class="bi bi-arrow-up-right"></i></a>
+            </div>
+          </article>
+
+          <article class="proj-card">
+            <div class="proj-image" style="background-image: url('https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=900&q=80')" role="img" aria-label="Professionals collaborating around a table"></div>
+            <div class="proj-content">
+              <span class="proj-client">Kenya Cyber Security and Forensics Association</span>
+              <h3 class="proj-name">KCSFA Website</h3>
+              <p class="proj-description">A clear digital platform for a professional community focused on cybersecurity and digital forensics in Kenya.</p>
+              <div class="proj-tech">
+                <span class="proj-tech-item">Professional community</span>
+                <span class="proj-tech-item">Cybersecurity</span>
+                <span class="proj-tech-item">Web platform</span>
+              </div>
+              <a href="https://www.kcsfa.co.ke/" class="proj-link" target="_blank" rel="noopener noreferrer">Visit KCSFA <i class="bi bi-arrow-up-right"></i></a>
+            </div>
+          </article>
+        </div>
+
+        <div class="container">
+          <div class="button-container">
+            <a href="https://github.com/AbsolomOndara" target="_blank" rel="noopener noreferrer">
+              <button class="outline-btn">
+                Explore More <i class="fas fa-chevron-right"></i>
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="edu-section" class="edu-section">
+      <div class="edu-container">
+        <h2 class="edu-title">Academic Journey</h2>
+
+        <div class="edu-track">
+          <div class="edu-card">
+            <h3 class="edu-degree">Computer Science</h3>
+            <span class="edu-school">Zetech University</span>
+            <div class="edu-duration">
+              <i class="bi bi-calendar"></i>
+              September 2019 – August 2022
+            </div>
+            <p class="edu-description">
+              Completed rigorous program covering programming fundamentals, systems analysis, and full-stack development with emphasis on modern software engineering practices.
+            </p>
+            <div class="edu-skills">
+              <div class="edu-skill">Algorithms &amp; Data Structures</div>
+              <div class="edu-skill">OOP Principles</div>
+              <div class="edu-skill">Database Management</div>
+              <div class="edu-skill">SDLC Methodologies</div>
+              <div class="edu-skill">Network Security</div>
+              <div class="edu-skill">Data Science Basics</div>
+            </div>
+          </div>
+
+          <div class="edu-card">
+            <h3 class="edu-degree">Data Science</h3>
+            <span class="edu-school">JKUAT</span>
+            <div class="edu-duration">
+              <i class="bi bi-calendar"></i>
+              August 2022 – December 2022
+            </div>
+            <p class="edu-description">
+              Intensive specialization program focusing on data analysis, machine learning, and big data technologies through hands-on projects and real-world applications.
+            </p>
+            <div class="edu-skills">
+              <div class="edu-skill">Python Data Analysis</div>
+              <div class="edu-skill">Statistical Modeling</div>
+              <div class="edu-skill">Machine Learning</div>
+              <div class="edu-skill">Big Data Tools</div>
+              <div class="edu-skill">Data Visualization</div>
+              <div class="edu-skill">Data Wrangling</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <section id="skills">
+      <strong><h2>Technical Skills</h2></strong>
+
+      <div class="skill-category">
+        <h3>Programming Languages</h3>
+        <div class="skill-item">
+          <i class="fab fa-js skill-icon"></i>
+          <span class="skill-name">JavaScript</span>
+          <div class="skill-bar-container"><div class="skill-progress" style="width: 90%; background: #2196f3;"></div></div>
+          <span class="skill-percent">90%</span>
+        </div>
+        <div class="skill-item">
+          <i class="fab fa-python skill-icon"></i>
+          <span class="skill-name">Python</span>
+          <div class="skill-bar-container"><div class="skill-progress" style="width: 85%; background: #4caf50;"></div></div>
+          <span class="skill-percent">85%</span>
+        </div>
+        <div class="skill-item">
+          <i class="fab fa-php skill-icon"></i>
+          <span class="skill-name">PHP</span>
+          <div class="skill-bar-container"><div class="skill-progress" style="width: 75%; background: #9c27b0;"></div></div>
+          <span class="skill-percent">75%</span>
+        </div>
+        <div class="skill-item">
+          <i class="fab fa-java skill-icon"></i>
+          <span class="skill-name">Java</span>
+          <div class="skill-bar-container"><div class="skill-progress" style="width: 80%; background: #ff9800;"></div></div>
+          <span class="skill-percent">80%</span>
+        </div>
+        <div class="skill-item">
+          <i class="fas fa-database skill-icon"></i>
+          <span class="skill-name">SQL</span>
+          <div class="skill-bar-container"><div class="skill-progress" style="width: 95%; background: #bd5d38;"></div></div>
+          <span class="skill-percent">95%</span>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <h3>Front-End Development</h3>
+        <div class="skill-item">
+          <i class="fab fa-html5 skill-icon"></i>
+          <span class="skill-name">HTML5</span>
+          <div class="skill-bar-container"><div class="skill-progress" style="width: 95%; background: #bd5d38;"></div></div>
+          <span class="skill-percent">95%</span>
+        </div>
+        <div class="skill-item">
+          <i class="fab fa-css3-alt skill-icon"></i>
+          <span class="skill-name">CSS3</span>
+          <div class="skill-bar-container"><div class="skill-progress" style="width: 90%; background: #4caf50;"></div></div>
+          <span class="skill-percent">90%</span>
+        </div>
+        <div class="skill-item">
+          <i class="fab fa-bootstrap skill-icon"></i>
+          <span class="skill-name">Bootstrap</span>
+          <div class="skill-bar-container"><div class="skill-progress" style="width: 85%; background: #2196f3;"></div></div>
+          <span class="skill-percent">85%</span>
+        </div>
+        <div class="skill-item">
+          <i class="fab fa-react skill-icon"></i>
+          <span class="skill-name">React.js</span>
+          <div class="skill-bar-container"><div class="skill-progress" style="width: 80%; background: #ff9800;"></div></div>
+          <span class="skill-percent">80%</span>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <h3>Back-End Development</h3>
+        <div class="skill-item">
+          <i class="fab fa-node-js skill-icon"></i>
+          <span class="skill-name">Node.js</span>
+          <div class="skill-bar-container"><div class="skill-progress" style="width: 85%; background: #2196f3;"></div></div>
+          <span class="skill-percent">85%</span>
+        </div>
+        <div class="skill-item">
+          <i class="fas fa-cloud skill-icon"></i>
+          <span class="skill-name">RESTful APIs</span>
+          <div class="skill-bar-container"><div class="skill-progress" style="width: 90%; background: #4caf50;"></div></div>
+          <span class="skill-percent">90%</span>
+        </div>
+        <div class="skill-item">
+          <i class="fab fa-docker skill-icon"></i>
+          <span class="skill-name">Docker</span>
+          <div class="skill-bar-container"><div class="skill-progress" style="width: 75%; background: #9c27b0;"></div></div>
+          <span class="skill-percent">75%</span>
+        </div>
+        <div class="skill-item">
+          <i class="fab fa-aws skill-icon"></i>
+          <span class="skill-name">AWS</span>
+          <div class="skill-bar-container"><div class="skill-progress" style="width: 70%; background: #ff9800;"></div></div>
+          <span class="skill-percent">70%</span>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <h3>Tools &amp; Technologies</h3>
+        <div class="skill-item">
+          <i class="fab fa-git-alt skill-icon"></i>
+          <span class="skill-name">Git &amp; GitHub</span>
+          <div class="skill-bar-container"><div class="skill-progress" style="width: 95%; background: #bd5d38;"></div></div>
+          <span class="skill-percent">95%</span>
+        </div>
+        <div class="skill-item">
+          <i class="fas fa-fire skill-icon"></i>
+          <span class="skill-name">Firebase</span>
+          <div class="skill-bar-container"><div class="skill-progress" style="width: 80%; background: #4caf50;"></div></div>
+          <span class="skill-percent">80%</span>
+        </div>
+        <div class="skill-item">
+          <i class="fas fa-cogs skill-icon"></i>
+          <span class="skill-name">Jenkins</span>
+          <div class="skill-bar-container"><div class="skill-progress" style="width: 75%; background: #2196f3;"></div></div>
+          <span class="skill-percent">75%</span>
+        </div>
+        <div class="skill-item">
+          <i class="fas fa-code skill-icon"></i>
+          <span class="skill-name">VS Code</span>
+          <div class="skill-bar-container"><div class="skill-progress" style="width: 90%; background: #ff9800;"></div></div>
+          <span class="skill-percent">90%</span>
+        </div>
+        <div class="skill-item">
+          <i class="fas fa-toolbox skill-icon"></i>
+          <span class="skill-name">Postman</span>
+          <div class="skill-bar-container"><div class="skill-progress" style="width: 85%; background: #9c27b0;"></div></div>
+          <span class="skill-percent">85%</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="unique-interests">
+      <div class="section-header">
+        <h2>What Drives Me</h2>
+        <p>A blend of tech passion and life adventures</p>
+      </div>
+
+      <div class="interests-grid">
+        <div class="interest-card">
+          <i class="fas fa-handshake icon-gradient"></i>
+          <h3>Open Source Contributions</h3>
+          <p>Collaborating globally to build community-driven solutions.</p>
+        </div>
+        <div class="interest-card">
+          <i class="fas fa-brain icon-gradient"></i>
+          <h3>Artificial Intelligence</h3>
+          <p>Building intelligent systems for real-world impact.</p>
+        </div>
+        <div class="interest-card">
+          <i class="fas fa-paint-brush icon-gradient"></i>
+          <h3>UI/UX Design</h3>
+          <p>Crafting interfaces that delight and empower users.</p>
+        </div>
+        <div class="interest-card">
+          <i class="fas fa-rocket icon-gradient"></i>
+          <h3>Startup Ecosystem</h3>
+          <p>Fueling innovation through agile problem-solving.</p>
+        </div>
+        <div class="interest-card">
+          <i class="fas fa-book-open icon-gradient"></i>
+          <h3>Continuous Learning</h3>
+          <p>Always evolving with the tech landscape.</p>
+        </div>
+        <div class="interest-card">
+          <i class="fas fa-mountain icon-gradient"></i>
+          <h3>Outdoor Adventures</h3>
+          <p>Recharging through nature and exploration.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="resume-section" class="resume-section">
+      <div class="rs-container">
+        <h2 class="rs-title">Awards</h2>
+
+        <div class="rs-grid">
+          <article class="rs-card">
+            <h3 class="rs-card-title">Cyber Security</h3>
+            <div class="rs-card-desc">Certified in fundamental cybersecurity principles, including network security, risk management, and threat analysis.</div>
+            <a href="assets/img/Cybersecurity.pdf" download class="rs-download-btn"><i class="fas fa-file-pdf"></i> Download PDF</a>
+          </article>
+
+          <article class="rs-card">
+            <h3 class="rs-card-title">Networking</h3>
+            <div class="rs-card-desc">Achieved certification in networking fundamentals, routing, switching, and network troubleshooting techniques.</div>
+            <a href="assets/img/Networks.pdf" download class="rs-download-btn"><i class="fas fa-file-pdf"></i> Download PDF</a>
+          </article>
+
+          <article class="rs-card">
+            <h3 class="rs-card-title">Enterprise Networking, Security, and Automation</h3>
+            <div class="rs-card-desc">Certified in advanced networking concepts, security configurations, and automation practices for enterprise environments.</div>
+            <a href="assets/img/Enterprise.pdf" download class="rs-download-btn"><i class="fas fa-file-pdf"></i> Download PDF</a>
+          </article>
+
+          <article class="rs-card">
+            <h3 class="rs-card-title">CyberOps Associate</h3>
+            <div class="rs-card-desc">Demonstrated expertise in cybersecurity operations, incident response, and monitoring systems for network security.</div>
+            <a href="assets/img/CyberOps.pdf" download class="rs-download-btn"><i class="fas fa-file-pdf"></i> Download PDF</a>
+          </article>
+
+          <article class="rs-card">
+            <h3 class="rs-card-title">Python Programming</h3>
+            <div class="rs-card-desc">Demonstrated expertise in cybersecurity operations, incident response, and monitoring systems for network security.</div>
+            <a href="assets/img/python.pdf" download class="rs-download-btn"><i class="fas fa-file-pdf"></i> Download PDF</a>
+          </article>
+
+          <article class="rs-card">
+            <h3 class="rs-card-title">AWS Certification</h3>
+            <div class="rs-card-desc">Demonstrated expertise in cybersecurity operations, incident response, and monitoring systems for network security.</div>
+            <a href="assets/img/aws.pdf" download class="rs-download-btn"><i class="fas fa-file-pdf"></i> Download PDF</a>
+          </article>
+        </div>
+
+        <a href="https://wa.me/254112293409?text=Hi%2C%20please%20share%20your%20full%20CV" class="rs-whatsapp-btn" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-whatsapp"></i> Request Full CV
+        </a>
+      </div>
+    </section>
+
+    <section class="testimonials-section" id="unique-testimonials">
+      <div class="section-header">
+        <h2>Client perspectives</h2>
+        <p>Notes from people and organisations connected to my work.</p>
+      </div>
+
+      <div class="testimonials-grid">
+        <article class="testimonial-card">
+          <div class="testimonial-content">
+            <span class="reference-note">Draft for review</span>
+            <p class="testimonial-text">“Absolom brought a thoughtful and dependable approach to our digital work. He listened carefully, communicated clearly, and stayed focused on building a solution that serves our needs.”</p>
+          </div>
+          <div class="testimonial-author">
+            <h4>Dr Abuga</h4>
+            <p>Medrisk Consulting</p>
+          </div>
+        </article>
+
+        <article class="testimonial-card">
+          <div class="testimonial-content">
+            <span class="reference-note">Draft for review</span>
+            <p class="testimonial-text">“Absolom understands how to make a complex subject easier to access online. His care for the user experience and follow-through made him a valued partner on our digital work.”</p>
+          </div>
+          <div class="testimonial-author">
+            <h4>Fredrick Wahome</h4>
+            <p>Institute of Cybersecurity and Forensics (ICSF)</p>
+          </div>
+        </article>
+
+        <article class="testimonial-card">
+          <div class="testimonial-content">
+            <span class="reference-note">Draft for review</span>
+            <p class="testimonial-text">“Absolom brought a practical, collaborative mindset to our online presence. He kept the work focused, responsive, and aligned with the needs of our professional community.”</p>
+          </div>
+          <div class="testimonial-author">
+            <h4>Kenya Cyber Security and Forensics Association</h4>
+            <p>KCSFA</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact-section">
+      <div class="contact-container">
+        <div class="contact-info-side">
+          <div class="contact-info-wrapper">
+            <div class="section-title">
+              <h2>Get in Touch</h2>
+              <p>Let's build something amazing together—reach out for collaborations, projects, or just a tech chat</p>
+            </div>
+
+            <div class="contact-info-item" data-aos="fade-up" data-aos-delay="200">
+              <div class="info-icon"><i class="bi bi-geo-alt"></i></div>
+              <div class="info-content">
+                <h3>Address</h3>
+                <p>Kahawa Sukari, Kenya</p>
+              </div>
+            </div>
+
+            <div class="contact-info-item" data-aos="fade-up" data-aos-delay="300">
+              <div class="info-icon"><i class="bi bi-telephone"></i></div>
+              <div class="info-content">
+                <h3>Call Me</h3>
+                <p><a href="tel:+254112293409">+254 112 293 409</a></p>
+              </div>
+            </div>
+
+            <div class="contact-info-item" data-aos="fade-up" data-aos-delay="400">
+              <div class="info-icon"><i class="bi bi-envelope"></i></div>
+              <div class="info-content">
+                <h3>Email Me</h3>
+                <p><a href="mailto:absolomondara01@gmail.com">absolomondara01@gmail.com</a></p>
+              </div>
+            </div>
+
+            <div class="social-links">
+              <a href="https://github.com/AbsolomOndara" class="hero-social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/absolom-ondara-602789326?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="hero-social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+              <a href="https://x.com/OndaraAbsolom" class="hero-social-link" aria-label="X">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z" fill="white"/>
+                </svg>
+              </a>
+              <a href="https://www.facebook.com/absolom.jayson?rdid=jF7OfbkLmV1DkYFC&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F15vWu4SqRL%2F#" class="hero-social-link" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-side">
+          <div class="contact-form-container">
+            <form id="custom-contact-form" method="post" class="custom-php-email-form">
+              <div class="form-row">
+                <div class="form-group half-width">
+                  <label for="custom-name-field">Your Name</label>
+                  <input type="text" name="name" id="custom-name-field" class="form-control-custom" required>
+                </div>
+
+                <div class="form-group half-width">
+                  <label for="custom-email-field">Your Email</label>
+                  <input type="email" class="form-control-custom" name="email" id="custom-email-field" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="custom-subject-field">Subject</label>
+                <input type="text" class="form-control-custom" name="subject" id="custom-subject-field" required>
+              </div>
+
+              <div class="form-group">
+                <label for="custom-message-field">Message</label>
+                <textarea class="form-control-custom" name="message" rows="6" id="custom-message-field" required></textarea>
+              </div>
+
+              <div class="form-group">
+                <button type="submit" class="submit-btn">
+                  <span class="btn-text">Send Message</span>
+                  <i class="bi bi-send-fill" style="margin-left: 8px;"></i>
+                </button>
+              </div>
+
+              <div class="form-status loading">Loading</div>
+              <div class="form-status error-message">Error sending message. Please try again.</div>
+              <div class="form-status sent-message" role="status">Your email app will open with this message ready to send.</div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="map-container">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31911.608715925307!2d36.924226854038125!3d-1.1946379228111244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f3f8e4b8ad947%3A0x9504ecc7473b7b93!2sKahawa%20Sukari!5e0!3m2!1sen!2ske!4v1757003480553!5m2!1sen!2ske" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const contactForm = document.getElementById('custom-contact-form');
+        const successElement = document.querySelector('.form-status.sent-message');
+        const loadingElement = document.querySelector('.form-status.loading');
+        const errorElement = document.querySelector('.form-status.error-message');
+
+        loadingElement.style.display = 'none';
+        errorElement.style.display = 'none';
+        successElement.style.display = 'none';
+
+        contactForm.addEventListener('submit', function(event) {
+          event.preventDefault();
+          const fields = new FormData(contactForm);
+          const subject = encodeURIComponent(fields.get('subject'));
+          const body = encodeURIComponent(
+            `Name: ${fields.get('name')}\nEmail: ${fields.get('email')}\n\n${fields.get('message')}`
+          );
+
+          successElement.textContent = 'Your email app will open with this message ready to send.';
+          successElement.style.display = 'block';
+          window.location.href = `mailto:absolomondara01@gmail.com?subject=${subject}&body=${body}`;
+        });
+      });
+    </script>
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+    <div class="container">
+      <div class="copyright text-center">
+        <p>© <span id="year"></span> <span>Copyright</span>
+          <strong class="px-1 sitename">Absolom Ondara</strong>
+          <span>All Rights Reserved</span>
+        </p>
+      </div>
+
+      <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+      </script>
+
+      <div class="credits">
+        Developed by <a href="https://www.worldwaysweb-developers.co.ke/">WorldWays Web-Developers</a>
+      </div>
+    </div>
+  </footer>
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+
+  <a href="https://wa.me/254112293409?text=Hello%20this%20is%20Absolom%20how%20can%20I%20help%20you"
+     class="whatsapp-float"
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="Chat with Absolom on WhatsApp">
+    <i class="fab fa-whatsapp whatsapp-icon"></i>
+  </a>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</body>
+
+</html>
